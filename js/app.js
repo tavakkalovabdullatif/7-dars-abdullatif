@@ -29,10 +29,10 @@ console.log(arrPop);
 // Foydalanish: unshift()
 const arrunshift = [1, 2, 3, 4];
 function addToStart(arr) {
-  arr.unshift("salom");
+  arr.unshift(6);
 }
 
-arrUnshift(arrunshift);
+addToStart(arrunshift);
 console.log(arrunshift);
 
 // 4-masala
@@ -40,7 +40,7 @@ console.log(arrunshift);
 // Foydalanish: shift()
 const arrshift = [1, 2, 3, 4];
 function removeFirst(arr) {
-  arr.shift();
+  arr.shift("aslom");
 }
 
 removeFirst(arrshift);
@@ -49,9 +49,13 @@ console.log(arrshift);
 // 5-masala
 // Stringdagi boвЂsh joylarni olib tashlang.
 // Foydalanish: trim()
+const strtrim = "      Abdullatif     ";
 function cleanString(str) {
-  // Tarash-tarash, tozalab tashlang вњ‚пёЏ
+  str.trim();
 }
+
+cleanString(strtrim);
+console.log(strtrim);
 
 // 6-masala
 // Berilgan string katta harflarga oвЂtkazilsin.
