@@ -16,23 +16,35 @@ console.log(arrPush);
 // 2-masala
 // Arrayning oxirgi elementini olib tashlang.
 // Foydalanish: pop()
+const arrPop = [1, 2, 3, 4, 5];
 function removeLast(arr) {
-  
+  arr.pop();
 }
+
+removeLast(arrPop);
+console.log(arrPop);
 
 // 3-masala
 // Array boshiga yangi element qoвЂshing.
 // Foydalanish: unshift()
-function addToStart(arr, value) {
-  // Boshidan boshlab yuramiz, yozingchi рџ‘Ђ
+const arrunshift = [1, 2, 3, 4];
+function addToStart(arr) {
+  arr.unshift("salom");
 }
+
+arrUnshift(arrunshift);
+console.log(arrunshift);
 
 // 4-masala
 // Arrayning birinchi elementini olib tashlang.
 // Foydalanish: shift()
+const arrshift = [1, 2, 3, 4];
 function removeFirst(arr) {
-  // Peshqadamni haydamoqchimisiz? Kod bilan bajaring рџ’Ё
+  arr.shift();
 }
+
+removeFirst(arrshift);
+console.log(arrshift);
 
 // 5-masala
 // Stringdagi boвЂsh joylarni olib tashlang.
