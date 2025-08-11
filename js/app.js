@@ -7,7 +7,7 @@
 // // Foydalanish: push()
 // const arrPush = [1, 2, 3, 4]
 // function addToEnd(arr) {
-//   arr.push(3);
+//   return arr.push(3);
 // }
 
 // addToEnd(arrPush);
@@ -18,7 +18,7 @@
 // // Foydalanish: pop()
 // const arrPop = [1, 2, 3, 4, 5];
 // function removeLast(arr) {
-//   arr.pop();
+//   return arr.pop();
 // }
 
 // removeLast(arrPop);
@@ -29,7 +29,7 @@
 // // Foydalanish: unshift()
 // const arrunshift = [1, 2, 3, 4];
 // function addToStart(arr) {
-//   arr.unshift(6);
+//  return arr.unshift(6);
 // }
 
 // addToStart(arrunshift);
@@ -40,7 +40,7 @@
 // // Foydalanish: shift()
 // const arrshift = [1, 2, 3, 4];
 // function removeFirst(arr) {
-//   arr.shift("aslom");
+//  return arr.shift("aslom");
 // }
 
 // removeFirst(arrshift);
@@ -51,7 +51,7 @@
 // // Foydalanish: trim()
 // const strtrim = "      Abdullatif     ";
 // function cleanString(str) {
-//   str.trim();
+//   return str.trim();
 // }
 
 // cleanString(strtrim);
@@ -62,7 +62,7 @@
 // // Foydalanish: toUpperCase()
 // const strShout = "salom";
 // function shout(str) {
-//   str.toUpperCase();
+//   return str.toUpperCase();
 // }
 
 // shout(strShout);
@@ -73,7 +73,7 @@
 // // Foydalanish: includes()
 // const arrIncludes = "Abdullatif, Ali, Vali";
 // function hasValue(arr) {
-//   arr.includes("Abdullatifs");
+//   return arr.includes("Abdullatifs");
 // }
 
 // hasValue(arrIncludes);
@@ -88,7 +88,7 @@
 // Foydalanish: startsWith()
 const strStartsWidth = "abdulla";
 function startsWithA(str) {
-  str.startsWith("a");
+  return str.startsWith("a");
 }
 startsWithA(strStartsWidth);
 console.log(strStartsWidth);
@@ -98,7 +98,7 @@ console.log(strStartsWidth);
 // Foydalanish: includes()
 const arrIncludes = ["olma", "shaftoli", "banan"];
 function containsApple(arr) {
-  arr.includes("olma");
+  return arr.includes("olma");
 }
 containsApple(arrIncludes);
 console.log(arrIncludes);
@@ -128,24 +128,25 @@ function getValues(obj) {
   return Object.values(objObjectkeys);
 }
 
-const keysArray11 = getValues(objObjectkeys);
-console.log(keysArray);
+const valuesArray = getValues(objObjectkeys);
+console.log(valuesArray);
 
 // 12-masala
 // String ichidagi barcha boвЂsh joylarni olib tashlang.
 // Foydalanish: replaceAll(" ", "")
-const removeFirst = "salom";
+const removeFirst = "salom alik";
 function removeSpaces(str) {
-  str.replaceAll("alik");
+  return replaceAll(" ", "");
 }
-removeSpaces(removeFirst);
-console.log(removeFirst);
+const result = removeSpaces(removeFirst);
+console.log(result);
 
 // 13-masala
 // Arrayning teskari koвЂrinishini qaytaring.
 // Foydalanish: reverse()
+const arrReserve = []
 function reverseArray(arr) {
-  // Orqaga buriling, orqagaaa! в†©пёЏ
+  return arr.reserve()
 }
 
 // 14-masala
