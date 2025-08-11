@@ -134,7 +134,12 @@ console.log(keysArray);
 // 12-masala
 // String ichidagi barcha boвЂsh joylarni olib tashlang.
 // Foydalanish: replaceAll(" ", "")
-function removeSpaces(str) {}
+const removeFirst = "salom";
+function removeSpaces(str) {
+  str.replaceAll("alik");
+}
+removeSpaces(removeFirst);
+console.log(removeFirst);
 
 // 13-masala
 // Arrayning teskari koвЂrinishini qaytaring.
