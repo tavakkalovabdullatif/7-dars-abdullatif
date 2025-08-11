@@ -205,23 +205,32 @@
 // addComma(strpush);
 // console.log(strpush);
 
-// // // 19-masala
-// // // Massivda oxirgi boвЂlib qayerda "banana" turganini toping.
-// // // Foydalanish: lastIndexOf()
-// // function lastBananaIndex(arr) {
-// //
-// // }
+// // 19-masala
+// // Massivda oxirgi bolib qayerda "banana" turganini toping.
+// // Foydalanish: lastIndexOf()
+// function lastBananaIndex(arr) {
+//   
+//   return arr.lastIndexOf("banana");
+// };
+// console.log(lastBananaIndex(["apple", "orange", ,"banana"]));
 
-// // // 20-masala
-// // // Massivda 2-dan 5-gacha boвЂlgan elementlarni kesib oling.
-// // // Foydalanish: slice()
-// // function sliceMiddle(arr) {
-// //   // OвЂrtadagi boвЂlimni ajratib oling рџ“¦
-// // }
 
-// // // 21-masala
-// // // String ichida "javascript" soвЂzini "JS" bilan almashtiring.
-// // // Foydalanish: replaceAll()
-// // function shortenJS(str) {
-// //   // Uzun soвЂzlardan qutulamiz, qisqacha ayting рџ§
-// // }
+
+// // 20-masala
+// // Massivda 2-dan 5-gacha bo‘lgan elementlarni kesib oling.
+// // Foydalanish: slice()
+// function sliceMiddle(arr) {
+//   
+// return arr.slice(1,5)
+// };
+// console.log(sliceMiddle([1,2,3,4]));
+
+
+// // 21-masala
+// // String ichida "phyton" so‘zini "c#" bilan almashtiring.
+// // Foydalanish: replaceAll()
+// function shortenJS(str) {
+//  
+//   return str.replaceAll("phyton", "c#");
+// };
+// console.log(shortenJS("Man phyton organayapman, c# juda zor til"));
