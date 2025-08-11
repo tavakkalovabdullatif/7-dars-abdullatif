@@ -206,13 +206,13 @@
 // console.log(strpush);
 
 // // 19-masala
-// // Massivda oxirgi bolib qayerda "banana" turganini toping.
+// // Massivda oxirgi bolib qayerda "olma" turganini toping.
 // // Foydalanish: lastIndexOf()
 // function lastBananaIndex(arr) {
 //   
-//   return arr.lastIndexOf("banana");
+//   return arr.lastIndexOf("olma");
 // };
-// console.log(lastBananaIndex(["apple", "orange", ,"banana"]));
+// console.log(lastBananaIndex(["olma", "shaftoli", ,"banan"]));
 
 
 
